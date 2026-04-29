@@ -1,0 +1,65 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  python:
+    name: Run Python smoke tests
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: ["3.11", "3.12"]
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python ${{ matrix.python-version }}
+        uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+
+      - name: Install matplotlib (only optional dep)
+        run: |
+          python -m pip install --upgrade pip
+          pip install matplotlib==3.9.2
+
+      # ---- Section 01 ----
+      - name: 01 · AI maturity assessment (no chart)
+        run: python 01-ai-enterprise-transformation/code/ai_maturity_assessment.py --no-chart
+
+      - name: 01 · RAG pipeline demo
+        working-directory: 01-ai-enterprise-transformation/code
+        run: python rag_pipeline.py --query "What is an AI-Native enterprise?"
+
+      - name: 01 · LLM evaluation harness demo
+        working-directory: 01-ai-enterprise-transformation/code
+        run: python llm_evaluation_harness.py --demo
+
+      # ---- Section 02 ----
+      - name: 02 · ISO 27005 risk calculator demo
+        working-directory: 02-cybersecurity/code
+        run: python iso27005_risk_calculator.py --demo
+
+      - name: 02 · LLM threat modeler
+        working-directory: 02-cybersecurity/code
+        run: python llm_threat_modeler.py --architecture rag-customer-facing
+
+      - name: 02 · DORA compliance mapper
+        working-directory: 02-cybersecurity/code
+        run: python dora_compliance_mapper.py
+
+      # ---- Section 03 ----
+      - name: 03 · Sovereign cloud decision
+        working-directory: 03-cloud-souverain-ia/code
+        run: python sovereign_cloud_decision.py --workload-preset healthcare-ehr
+
+      - name: 03 · LLM FinOps optimiser
+        working-directory: 03-cloud-souverain-ia/code
+        run: python llm_finops_optimizer.py --demo
+
+      - name: 03 · Data residency analyser
+        working-directory: 03-cloud-souverain-ia/code
+        run: python data_residency_analyzer.py --architecture multi-region-failover

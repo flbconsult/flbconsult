@@ -1,0 +1,8 @@
+# Section 01 — Enterprise AI Transformation
+# Pinned for reproducibility. Tested with Python 3.11.
+
+# Optional: only used by ai_maturity_assessment.py for the radar chart.
+matplotlib==3.9.2
+
+# All other code (rag_pipeline.py, llm_evaluation_harness.py) runs on the
+# Python standard library only — no API keys, no network, no GPU.

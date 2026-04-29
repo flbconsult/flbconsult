@@ -1,0 +1,3 @@
+# Section 02 — Cybersecurity
+# All scripts run on the Python 3.11 standard library only.
+# No external dependencies, no API keys, no network.
