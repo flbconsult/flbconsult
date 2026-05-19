@@ -118,7 +118,7 @@ The strategic mistake is not failing to become AI-Native. It is **not making the
 2. Bommasani, R. et al. (2021). *On the Opportunities and Risks of Foundation Models*. arXiv:2108.07258.
 3. Brynjolfsson, E., Li, D., Raymond, L. R. (2023). *Generative AI at Work*. NBER 31161.
 4. CNCF. (2018). *Cloud Native Definition v1.0*.
-5. Davenport, T., Mittal, N. (2022). *How to Become an AI-Fueled Organization*. HBR.
+5. Davenport, T. H., Mittal, N. (2023). *All-in on AI: How Smart Companies Win Big with Artificial Intelligence*. HBR Press.
 6. EU. (2022). *DORA — Regulation (EU) 2022/2554*.
 7. EU. (2024). *AI Act — Regulation (EU) 2024/1689*.
 8. Iansiti, M., Lakhani, K. R. (2020). *Competing in the Age of AI*. HBR Press.

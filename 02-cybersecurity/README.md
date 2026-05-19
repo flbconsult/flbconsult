@@ -35,7 +35,7 @@ Cybersecurity in 2026 is no longer about endpoint protection or perimeter defenc
 - ANSSI. (2024). *Recommandations de sécurité pour un SI fondé sur l'IA générative*.
 - OWASP. (2025). *Top 10 for Large Language Model Applications*.
 - Greshake, K. et al. (2023). *Not what you've signed up for: Compromising real-world LLM-integrated apps with indirect prompt injection*. arXiv:2302.12173.
-- Carlini, N. et al. (2023). *Extracting Training Data from Large Language Models*. USENIX Security.
+- Carlini, N. et al. (2021). *Extracting Training Data from Large Language Models*. USENIX Security '21.
 - MITRE ATLAS. (2024). *Adversarial Threat Landscape for AI Systems*.
 
 ## How to run the code

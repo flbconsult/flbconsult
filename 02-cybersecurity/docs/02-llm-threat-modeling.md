@@ -24,7 +24,7 @@ LLM systems break all three assumptions:
 
 1. **Trust boundaries leak.** Indirect prompt injection [Greshake et al., 2023] embeds malicious instructions in *retrieved* content the user never sees, blurring the boundary between data and control.
 2. **Stochastic outputs.** The same input can produce different outputs; the same exploit can fail 9 times and succeed once. Detection must be statistical, not binary.
-3. **The model itself is the vulnerability.** Memorisation [Carlini et al., 2023], jailbreaks, and emergent capabilities [Wei et al., 2022] cannot be patched by fixing application code.
+3. **The model itself is the vulnerability.** Memorisation [Carlini et al., 2021], jailbreaks, and emergent capabilities [Wei et al., 2022] cannot be patched by fixing application code.
 
 ---
 
@@ -37,7 +37,7 @@ I propose six **LLM-specific extensions** of STRIDE, each mapped to the OWASP LL
 | **S**poofing | *Identity injection via retrieved content* | LLM01 (Prompt Injection) | Adversarial document in a RAG corpus impersonates the system role and overrides instructions. |
 | **T**ampering | *Model output manipulation via injection* | LLM01, LLM06 (Excessive Agency) | An attacker controls a calendar invite the agent reads; the agent then exfiltrates emails because the invite says so. |
 | **R**epudiation | *Trace plausible-deniability* | LLM05 (Improper Output Handling) | Lack of LLM trace store; abuse cannot be reconstructed for forensics. |
-| **I**nformation disclosure | *Training-data extraction* | LLM02 (Sensitive Info Disclosure), LLM10 (Vector and Embedding Weaknesses) | Carlini et al. (2023) extract verbatim training data via crafted prompts. |
+| **I**nformation disclosure | *Training-data extraction* | LLM02 (Sensitive Info Disclosure), LLM10 (Vector and Embedding Weaknesses) | Carlini et al. (2021) extract verbatim training data via crafted prompts. |
 | **D**enial of service | *Token-amplification, recursion* | LLM04 (Resource Exhaustion), LLM10 | Adversary triggers expensive long-context generation to exhaust per-tenant quota and budget. |
 | **E**levation of privilege | *Tool-use authority escalation* | LLM06 (Excessive Agency) | Agent with read-only tool list is convinced to call a write tool exposed as part of a different agent's MCP. |
 
@@ -111,7 +111,7 @@ The work I am doing at KHOME — and led at People First — strongly suggests t
 ## References
 
 1. ANSSI. (2024). *Recommandations de sécurité pour un SI fondé sur l'IA générative*.
-2. Carlini, N. et al. (2023). *Extracting Training Data from Large Language Models*. USENIX 21.
+2. Carlini, N. et al. (2021). *Extracting Training Data from Large Language Models*. USENIX Security '21.
 3. Deng, M. et al. (2011). *A privacy threat analysis framework: supporting the elicitation and fulfillment of privacy requirements*. Requirements Engineering 16(1).
 4. Greshake, K. et al. (2023). *Not what you've signed up for: Compromising real-world LLM-integrated apps with indirect prompt injection*. arXiv:2302.12173.
 5. Howard, M., LeBlanc, D. (2002). *Writing Secure Code*. Microsoft Press.

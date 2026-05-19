@@ -51,7 +51,7 @@ The Python tool `code/sovereign_cloud_decision.py` aggregates these scores into 
 
 **Examples:** Personal health records under HDS (clinical, not anonymised), data of operators of vital importance under LPM, defence and intelligence workloads, certain regalian functions (taxation, civil status).
 
-**Decision:** SecNumCloud-certified provider (OVH, Cloud Temple, Outscale 3DS, S3NS-Bleu under specific conditions, Microsoft Bleu and Google S3NS as joint ventures with French operators) **or** on-premise. Cost premium over hyperscaler is in the +20% to +40% range, accepted by regulation.
+**Decision:** SecNumCloud-certified provider (OVH, Cloud Temple, 3DS Outscale, and — depending on qualification scope — Bleu (Microsoft/Orange/Capgemini JV, milestone J1 passed) and S3NS (Google/Thales JV, qualified Dec. 2025)) **or** on-premise. Cost premium over hyperscaler is in the +20% to +40% range, accepted by regulation.
 
 **Field reference:** AP-HP HDS workload during my Orbis programme — non-negotiable for clinical SIH data. Hyperscaler used only for non-clinical, anonymised analytical workloads.
 
@@ -113,14 +113,14 @@ The Python tools shipped with this paper let a CIO, a CTO or a board run the cal
 2. ANSSI. (2024). *Recommandations de sécurité pour un SI fondé sur l'IA générative*.
 3. CJEU. (2020). *Schrems II — C-311/18*.
 4. CNIL. (2023). *Doctrine sur les transferts internationaux post Schrems II*.
-5. DGFiP. (2024). *Doctrine «Cloud au centre»*, revised version.
+5. DINUM / Premier Ministre. (2021, mis à jour 2024). *Doctrine «Cloud au centre» — Circulaire du Premier Ministre relative à la politique de l'État en matière de cloud informatique*. Direction interministérielle du numérique.
 6. EU. (2022). *DORA — Regulation (EU) 2022/2554*.
 7. EU. (2023). *Data Act — Regulation (EU) 2023/2854*.
 8. EU. (2024). *AI Act — Regulation (EU) 2024/1689*.
 9. EU. (2024). *Cyber Resilience Act — Regulation (EU) 2024/2847*.
 10. Gartner. (2024). *Magic Quadrant for Strategic Cloud Platform Services*.
 11. Hoffmann, J. et al. (2022). *Training Compute-Optimal Large Language Models*. arXiv:2203.15556.
-12. Microsoft / Capgemini / Orange. (2024). *Bleu — Sovereign Cloud joint venture, public reference architecture*.
+12. ANSSI. (2024). *Prestataires qualifiés SecNumCloud — liste officielle*. Agence nationale de la sécurité des systèmes d'information. https://www.ssi.gouv.fr/entreprise/qualifications/prestataires-de-services-de-confiance-qualifies/
 13. NIST. (2024). *Cybersecurity Framework 2.0*.
 14. OECD. (2023). *Cross-border data flows and digital sovereignty*.
 15. Patterson, D. et al. (2021). *Carbon Emissions and Large Neural Network Training*. arXiv:2104.10350.

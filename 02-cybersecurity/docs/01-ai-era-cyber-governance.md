@@ -88,7 +88,7 @@ A single tool — see [`code/dora_compliance_mapper.py`](../code/dora_compliance
 Beyond classical IT threats, an AI-augmented SI faces a recognisable set of new hostile actions. I summarise them here; they are detailed in [the second paper](./02-llm-threat-modeling.md):
 
 1. **Prompt injection** (direct and indirect) — Greshake et al., 2023 [arXiv:2302.12173].
-2. **Training-data extraction & memorisation leaks** — Carlini et al., 2023 (USENIX).
+2. **Training-data extraction & memorisation leaks** — Carlini et al., 2021 (USENIX Security '21).
 3. **Model supply-chain attacks** — compromised weights, poisoned fine-tuning datasets, malicious model cards.
 4. **Multi-tenant data leakage via embedding spaces** — under-discussed in the literature, observed in production.
 5. **Agentic-tool misuse** — the agent has more authority than its prompt suggests. Exploits the gap between the model's safety training and the tool ACL.
@@ -123,7 +123,7 @@ The Python tools shipped alongside this paper are deliberately small: they prove
 ## References
 
 1. ANSSI. (2024). *Recommandations de sécurité pour un SI fondé sur l'IA générative*.
-2. Carlini, N. et al. (2023). *Extracting Training Data from Large Language Models*. USENIX Security 21.
+2. Carlini, N. et al. (2021). *Extracting Training Data from Large Language Models*. USENIX Security '21.
 3. CNIL. (2024). *AI How-to Sheets for GDPR Compliance*.
 4. EU. (2022). *Regulation (EU) 2022/2554 — DORA*.
 5. EU. (2024). *Regulation (EU) 2024/1689 — Artificial Intelligence Act*.

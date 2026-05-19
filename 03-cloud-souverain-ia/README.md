@@ -33,7 +33,7 @@ This section answers without ideological shortcuts. The honest answer is: **it d
 - EU. (2024). *Regulation (EU) 2024/903 — European Interoperability Framework (Interoperable Europe Act 2023/2841)*.
 - Patterson, D. et al. (2021). *Carbon Emissions and Large Neural Network Training*. arXiv:2104.10350.
 - Hoffmann, J. et al. (2022). *Training Compute-Optimal Large Language Models* (Chinchilla). arXiv:2203.15556.
-- DGFiP / French Treasury. (2024). *Doctrine «Cloud au centre»* (revised).
+- DINUM / Premier Ministre. (2021, mis à jour 2024). *Doctrine «Cloud au centre»*. Direction interministérielle du numérique.
 - Gartner. (2024). *Magic Quadrant for Strategic Cloud Platform Services*.
 - Microsoft / Bleu, Orange / S3NS — operational reports on EU sovereign-cloud joint ventures.
 

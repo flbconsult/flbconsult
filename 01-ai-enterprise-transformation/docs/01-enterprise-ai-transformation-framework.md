@@ -99,7 +99,7 @@ The CIO/CTO must own this conversation jointly with Legal and Risk. Outsourcing 
 
 ### 3.6. Change management & operating-model redesign
 
-Westerman et al. [2014] and Davenport & Mittal [2022] converge on a single empirical regularity: digital programmes that fund the *people* side at < 10% of programme budget systematically underperform. At AP-HP, the August 2024 dual-datacenter loss was — beyond a technical event — a stress test of the *operating model* of the IT organisation. Continuity held because of pre-existing PCA drills; it would not have held had we been mid-AI-transformation with a half-trained operating model.
+Westerman et al. [2014] and Davenport & Mittal [2023] converge on a single empirical regularity: digital programmes that fund the *people* side at < 10% of programme budget systematically underperform. At AP-HP, the August 2024 dual-datacenter loss was — beyond a technical event — a stress test of the *operating model* of the IT organisation. Continuity held because of pre-existing PCA drills; it would not have held had we been mid-AI-transformation with a half-trained operating model.
 
 ---
 
@@ -129,7 +129,7 @@ The Python tools shipped alongside this paper (`ai_maturity_assessment.py`, `rag
 1. Acemoglu, D., Restrepo, P. (2022). *Tasks, Automation, and the Rise in US Wage Inequality*. Econometrica 90(5).
 2. Bommasani, R. et al. (2021). *On the Opportunities and Risks of Foundation Models*. arXiv:2108.07258.
 3. Brynjolfsson, E., Li, D., Raymond, L. R. (2023). *Generative AI at Work*. NBER Working Paper 31161.
-4. Davenport, T., Mittal, N. (2022). *How to Become an AI-Fueled Organization*. HBR.
+4. Davenport, T. H., Mittal, N. (2023). *All-in on AI: How Smart Companies Win Big with Artificial Intelligence*. HBR Press.
 5. EU. (2022). *Regulation (EU) 2022/2554 — DORA — Digital Operational Resilience Act*.
 6. EU. (2024). *Regulation (EU) 2024/1689 — Artificial Intelligence Act*.
 7. Es, S. et al. (2023). *RAGAS: Automated Evaluation of Retrieval Augmented Generation*. arXiv:2309.15217.

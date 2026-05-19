@@ -18,7 +18,7 @@ This section answers it on three levels.
 
 | File | Type | What you'll find |
 |---|---|---|
-| [`docs/01-enterprise-ai-transformation-framework.md`](./docs/01-enterprise-ai-transformation-framework.md) | Paper · 4 600 words · 18 references | A 5-stage maturity model (*AI-Curious → AI-Native*), six transformation levers, four anti-patterns observed in field engagements (AP-HP, KHOME, People First). Builds on Davenport & Mittal (HBR 2022), Iansiti & Lakhani (HBR 2020), Brynjolfsson et al. (NBER 2023). |
+| [`docs/01-enterprise-ai-transformation-framework.md`](./docs/01-enterprise-ai-transformation-framework.md) | Paper · 4 600 words · 18 references | A 5-stage maturity model (*AI-Curious → AI-Native*), six transformation levers, four anti-patterns observed in field engagements (AP-HP, KHOME, People First). Builds on Davenport & Mittal (HBR Press 2023), Iansiti & Lakhani (HBR 2020), Brynjolfsson et al. (NBER 2023). |
 | [`docs/02-ai-native-enterprise-thesis.md`](./docs/02-ai-native-enterprise-thesis.md) | Thesis · 3 800 words · 14 references | Definition of *AI-Native* (data-flywheel, agentic ops, evaluation-first culture), comparison with cloud-native and mobile-first transitions, why most "AI transformation" programmes are actually IT-modernisation programmes in disguise. |
 | [`code/ai_maturity_assessment.py`](./code/ai_maturity_assessment.py) | Python · CLI | Executable maturity assessment that scores an organisation across 6 dimensions (data, talent, MLOps, evaluation, governance, change-management) and outputs a radar chart + recommendations. |
 | [`code/rag_pipeline.py`](./code/rag_pipeline.py) | Python · reference architecture | Production-grade RAG pipeline: chunking, hybrid retrieval (BM25 + dense), re-ranking, citation enforcement, evaluation hooks. ~250 lines, runs offline on a sample corpus. |
@@ -31,7 +31,7 @@ This section answers it on three levels.
 - Iansiti, M., Lakhani, K. R. (2020). *Competing in the Age of AI*. Harvard Business Review Press.
 - Bommasani, R. et al. (2021). *On the Opportunities and Risks of Foundation Models*. arXiv:2108.07258.
 - Lewis, P. et al. (2020). *Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks*. arXiv:2005.11401.
-- Davenport, T., Mittal, N. (2022). *How to Become an AI-Fueled Organization*. HBR.
+- Davenport, T. H., Mittal, N. (2023). *All-in on AI: How Smart Companies Win Big with Artificial Intelligence*. HBR Press.
 - NIST (2023). *AI Risk Management Framework (AI RMF 1.0)*. NIST AI 100-1.
 - Liang, P. et al. (2022). *Holistic Evaluation of Language Models (HELM)*. arXiv:2211.09110.
 - Es, S. et al. (2023). *RAGAS: Automated Evaluation of Retrieval Augmented Generation*. arXiv:2309.15217.
