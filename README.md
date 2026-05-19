@@ -24,13 +24,15 @@ Recent missions: **CTO at KHOME (Crédit Agricole Group)** — AI-Native transfo
 
 ## 🎯 What this repository demonstrates
 
-This portfolio is a **deliberate, recruiter-oriented** showcase of three intertwined competencies. Each section combines an **academic-grade analytical paper** (with peer-reviewed references) and **executable Python code** that materialises the concepts.
+This portfolio is a **deliberate, recruiter-oriented** showcase of five intertwined competencies. Each section combines an **academic-grade analytical paper** (with peer-reviewed references) and **executable Python code** that materialises the concepts.
 
 | # | Domain | Strategic question | Deliverables |
 |---|---|---|---|
 | **01** | [**Enterprise AI Transformation & AI-Native Companies**](./01-ai-enterprise-transformation/) | What does it really mean to be *AI-Native* in 2026, and how does an incumbent get there? | Maturity model · RAG pipeline · LLM evaluation harness |
 | **02** | [**Cybersecurity in the AI era**](./02-cybersecurity/) | How do ISO 27005, NIST AI RMF and DORA combine to govern AI-enabled SI? | ISO 27005 risk calculator · STRIDE/LINDDUN for LLM · DORA compliance mapper |
 | **03** | [**Cloud Transformation & Sovereign Cloud in 2026**](./03-cloud-souverain-ia/) | Does *cloud souverain* still make sense when AI workloads structurally pull toward hyperscalers? | SecNumCloud vs hyperscaler decision framework · Data-residency analyser · FinOps optimiser |
+| **04** | [**EU AI Act: Classification, Conformity & Explainability**](./04-eu-ai-act/) | How does a CTO operationalise EU AI Act Art. 9 for High-Risk AI systems without creating compliance theatre? | AI Act classifier + Annex IV skeleton · XAI explainability toolkit · 47-item conformity checker |
+| **05** | [**Agentic AI in the Enterprise: Architecture, Governance & Blast Radius**](./05-agentic-ai/) | When an AI agent can call APIs and take irreversible actions — how do you architect for safety, auditability, and controlled blast radius? | Multi-agent orchestrator + guardrails · Declarative policy engine (ABAC/PBAC) · OpenTelemetry audit logger |
 
 > Each `code/` folder ships with a `requirements.txt` and is reproducible (`python -m venv`, `pip install -r requirements.txt`, `python <script>`).
 
@@ -39,10 +41,12 @@ This portfolio is a **deliberate, recruiter-oriented** showcase of three intertw
 ## 🧭 Reading guide for recruiters
 
 If you have **5 minutes** → read this README + [profile/about.md](./profile/about.md).
-If you have **20 minutes** → add the three domain READMEs:
+If you have **20 minutes** → add the five domain READMEs:
 - [`01-ai-enterprise-transformation/README.md`](./01-ai-enterprise-transformation/README.md)
 - [`02-cybersecurity/README.md`](./02-cybersecurity/README.md)
 - [`03-cloud-souverain-ia/README.md`](./03-cloud-souverain-ia/README.md)
+- [`04-eu-ai-act/README.md`](./04-eu-ai-act/README.md)
+- [`05-agentic-ai/README.md`](./05-agentic-ai/README.md)
 
 If you have **1 hour** → read the in-depth papers in each `docs/` folder and run one of the Python notebooks.
 

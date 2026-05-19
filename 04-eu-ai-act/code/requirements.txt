@@ -1,0 +1,22 @@
+# Module 04 — EU AI Act Classifier & XAI Toolkit
+# stdlib-only for the classifier and conformity checker
+# Install the following for production SHAP explainability:
+
+# Core ML explainability
+shap>=0.44.0
+scikit-learn>=1.4.0
+numpy>=1.26.0
+pandas>=2.2.0
+
+# Visualisation (for SHAP plots)
+matplotlib>=3.8.0
+# Install xgboost or lightgbm for TreeExplainer:
+# xgboost>=2.0.0
+# lightgbm>=4.3.0
+
+# LLM explainability (optional, for transformer token attribution)
+# transformers>=4.40.0
+# torch>=2.2.0
+
+# Report generation
+jinja2>=3.1.0

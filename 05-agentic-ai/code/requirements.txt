@@ -1,0 +1,29 @@
+# Module 05 — Agentic AI Orchestrator, Policy Engine & Audit Logger
+# Core: stdlib-only for policy engine and audit logger
+# Install below for the full agentic orchestrator:
+
+# Agentic frameworks (choose one or more)
+langgraph>=0.2.0
+langchain>=0.2.0
+langchain-anthropic>=0.1.0
+# langchain-openai>=0.1.0
+
+# LLM providers (choose one)
+anthropic>=0.25.0
+# openai>=1.30.0
+
+# Vector store for agent memory
+# chromadb>=0.5.0
+# faiss-cpu>=1.8.0
+
+# Observability / tracing (production)
+# opentelemetry-sdk>=1.24.0
+# opentelemetry-exporter-otlp>=1.24.0
+# langfuse>=2.0.0
+
+# Security
+# presidio-analyzer>=2.2.0   # production PII detection
+
+# Utils
+pydantic>=2.7.0
+python-dotenv>=1.0.0
