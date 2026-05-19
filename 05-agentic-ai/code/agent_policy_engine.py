@@ -22,7 +22,7 @@ import sys
 from dataclasses import dataclass, field
 from datetime import datetime, time as dtime
 from enum import Enum
-from typing import Any, Dict, List, Optional
+from typing import Any, Dict, List, Optional, Tuple
 
 
 # ─────────────────────────────────────────────────────────────────────────────
@@ -171,7 +171,6 @@ class PolicyEngine:
 
     def _evaluate_conditions(self, conditions: List[Dict],
                               ctx: EvaluationContext) -> Tuple[bool, List[str]]:
-        from typing import Tuple
         logs = []
         for cond in conditions:
             cond_type = cond.get("type")
@@ -203,7 +202,8 @@ class PolicyEngine:
                 param_val = str(ctx.parameters.get(param, ""))
                 is_forbidden = any(fv in param_val for fv in forbidden_values)
                 logs.append(f"param {param} forbidden_check: {'FORBIDDEN' if is_forbidden else 'OK'}")
-                if is_forbidden:
+                if not is_forbidden:
+                    # Condition not met — this rule doesn't apply to this action
                     return False, logs
 
         return True, logs

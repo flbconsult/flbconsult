@@ -30,7 +30,7 @@ This section answers without ideological shortcuts. The honest answer is: **it d
 - US. (2018). *CLOUD Act — Clarifying Lawful Overseas Use of Data*.
 - EU. (2023). *Regulation (EU) 2023/2854 — Data Act*.
 - EU. (2024). *Regulation (EU) 2024/1689 — AI Act* (extraterritorial scope, Art. 2).
-- EU. (2024). *Regulation (EU) 2024/903 — Interoperability of public services (IDA-NG)*.
+- EU. (2024). *Regulation (EU) 2024/903 — European Interoperability Framework (Interoperable Europe Act 2023/2841)*.
 - Patterson, D. et al. (2021). *Carbon Emissions and Large Neural Network Training*. arXiv:2104.10350.
 - Hoffmann, J. et al. (2022). *Training Compute-Optimal Large Language Models* (Chinchilla). arXiv:2203.15556.
 - DGFiP / French Treasury. (2024). *Doctrine «Cloud au centre»* (revised).

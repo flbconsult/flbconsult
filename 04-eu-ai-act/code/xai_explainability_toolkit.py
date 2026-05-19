@@ -71,15 +71,13 @@ class TabularExplainer:
         
         This stub returns plausible values for demonstration.
         """
-        random.seed(hash(str(sorted(instance.items()))))
+        random.seed(hash(str(sorted(instance.items()))) % (2**32))
         values = {}
-        total_deviation = 0
-        for feat in self.feature_names[:-1]:
-            v = round(random.gauss(0, 0.15), 3)
-            values[feat] = v
-            total_deviation += v
-        # Last feature balances the sum to a plausible total
-        values[self.feature_names[-1]] = round(random.gauss(0, 0.1), 3)
+        # Ensure a realistic mix: positive bias for well-described properties
+        signs = [1, 1, 1, -1, 1, -1, 1, 1, -1, 1]
+        for i, feat in enumerate(self.feature_names):
+            magnitude = abs(round(random.gauss(0, 0.08), 3))
+            values[feat] = signs[i % len(signs)] * magnitude
         return values
 
     def explain_instance(self, instance: Dict[str, Any],
@@ -318,7 +316,7 @@ def run_demo():
         "green_space_m2": 1200,
     }
 
-    explainer = TabularExplainer(features, base_value=0.52)
+    explainer = TabularExplainer(features, base_value=0.58)
     report = explainer.explain_instance(instance, "AVM_Paris_15e_001", "AVM Scoring Model")
     print(format_report(report))
 

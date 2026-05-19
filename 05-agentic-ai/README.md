@@ -33,7 +33,7 @@ The governance and security implications are an order of magnitude more complex 
 - Xi, Z. et al. (2023). *The Rise and Potential of Large Language Model Based Agents: A Survey*. arXiv:2309.07864.
 - Wei, J. et al. (2022). *Chain-of-Thought Prompting Elicits Reasoning in Large Language Models*. NeurIPS 2022.
 - Significant Gravitas (2023). *Auto-GPT: An Autonomous GPT-4 Experiment*. GitHub.
-- Anthropic. (2024). *Model Card — Claude 3 Tool Use and Agentic Behaviour*. Anthropic.
+- Anthropic. (2024). *Claude's Model Specification — Safety, Agentic Behaviour and Tool Use*. Anthropic.
 - OWASP. (2025). *Top 10 for Large Language Model Applications — Excessive Agency (LLM08)*. OWASP.
 - NIST. (2023). *AI Risk Management Framework (AI RMF 1.0) — Govern 1.1–1.7*. NIST.
 - EU. (2024). *AI Act — Art. 6, Annex III §4 (automated task allocation and monitoring)*. 2024/1689.

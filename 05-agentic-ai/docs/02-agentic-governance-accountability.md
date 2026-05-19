@@ -79,7 +79,7 @@ DORA Art. 12 (ICT Business Continuity) and Art. 17 (ICT-related Incident Managem
 
 ### 3.3 Operational Resilience Testing for Agents
 
-DORA Art. 24–25 (Digital Operational Resilience Testing) requires regular testing of ICT systems, including advanced penetration testing (TLPT) for critical systems. For agent systems, this should include:
+DORA Art. 24–25 (general ICT testing) requires regular testing of ICT systems. For critical entities, Art. 26–27 mandates Threat-Led Penetration Testing (TLPT) conducted by qualified testers. For agent systems, this should include:
 - **Prompt injection red team exercises** (manual and automated)
 - **Tool failure simulation** (what happens when a critical tool is unavailable?)
 - **Cost runaway simulation** (what happens when an agent enters a loop?)
@@ -166,9 +166,9 @@ When a **supervisor agent** instructs a **sub-agent** to take an action that cau
 6. Russell, S. (2019). *Human Compatible: Artificial Intelligence and the Problem of Control*. Viking Press.
 7. Hadfield-Menell, D. et al. (2016). *Cooperative Inverse Reinforcement Learning*. NeurIPS 2016.
 8. Weidinger, L. et al. (2021). *Ethical and social risks of harm from Language Models*. arXiv:2112.04359.
-9. ENISA. (2024). *AI Cybersecurity Considerations for Agentic Systems* (draft). ENISA.
-10. MITRE ATLAS. (2024). *Adversarial ML Threat Matrix — Agentic AI Attack Patterns*. MITRE.
-11. EBA. (2023). *Guidelines on the use of machine learning models in financial services*. EBA/GL/2023/06.
+9. ENISA. (2024). *Cybersecurity of AI and Standardisation*. European Union Agency for Cybersecurity.
+10. MITRE. (2024). *ATLAS: Adversarial Threat Landscape for Artificial Intelligence Systems*. MITRE Corporation.
+11. EBA. (2022). *Guidelines on credit risk management practices and accounting for expected credit losses (EBA/GL/2022/05)*. European Banking Authority.
 12. Stiennon, N. et al. (2020). *Learning to summarize with human feedback*. NeurIPS 2020.
 13. Amodei, D. et al. (2016). *Concrete Problems in AI Safety*. arXiv:1606.06565.
-14. Anthropic. (2024). *Claude's Constitution: Agentic and Tool-Use Safety Guidelines*. Anthropic.
+14. Anthropic. (2024). *Claude's Model Specification — Safety, Agentic Behaviour and Tool Use*. Anthropic. [model-spec.anthropic.com]

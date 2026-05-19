@@ -168,7 +168,7 @@ Explainability is not a module to be added after a model is trained. For complia
 10. Goodman, B., Flaxman, S. (2017). *EU regulations on algorithmic decision-making and a "right to explanation"*. AI Magazine, 38(3).
 11. EU. (2024). *Regulation (EU) 2024/1689 — AI Act*, Art. 13, 14, 72.
 12. RICS. (2023). *Automated Valuation Models (AVMs) — Professional Statement PS 1/2023*.
-13. EBA. (2023). *Guidelines on the use of machine learning models — EBA/GL/2023/06*.
+13. EBA. (2022). *Guidelines on credit institutions' credit risk management practices — use of ML models in IRB systems (EBA/GL/2022/05)*. European Banking Authority.
 14. Rudin, C. (2019). *Stop explaining black box machine learning models for high stakes decisions and use interpretable models instead*. Nature Machine Intelligence, 1.
 15. Slack, D. et al. (2020). *Fooling LIME and SHAP: Adversarial attacks on post hoc explanation methods*. AIES 2020.
 16. Chen, H. et al. (2020). *True to the Model or True to the Data?* arXiv:2006.16234.

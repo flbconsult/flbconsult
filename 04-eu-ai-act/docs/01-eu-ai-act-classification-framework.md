@@ -39,7 +39,7 @@ High-risk status is assigned on two tracks:
 
 **Track B — Standalone high-risk applications (Art. 6.2 + Annex III):** AI systems listed in the eight Annex III categories, regardless of whether they are embedded in a regulated product.
 
-A critical nuance introduced in the final text: an Annex III system **may be reclassified to lower risk** if it meets both conditions of Art. 6.3 — (a) it is not intended to make decisions with significant adverse effect on persons, and (b) the provider demonstrates through a self-assessment that the system does not pose a significant risk. This reclassification must be documented and notified to the market surveillance authority.
+A critical nuance introduced in the final text: an Annex III system **may be reclassified to lower risk** if it meets both conditions of Art. 6.3 — (a) it is not intended to make decisions with significant adverse effect on persons, and (b) the provider demonstrates through a self-assessment that the system does not pose a significant risk. This reclassification must be documented and made available to national competent authorities upon request (Art. 6.3).
 
 ### 1.3 Limited-Risk AI Systems
 
@@ -79,7 +79,7 @@ AI systems assisting courts in legal research, judicial decisions, or election o
 
 ---
 
-## 3. The GPAI Dimension: General-Purpose AI Models (Articles 51–55)
+## 3. The GPAI Dimension: General-Purpose AI Models (Articles 51–56)
 
 The AI Act introduces a distinct regulatory track for **General-Purpose AI (GPAI) models** — foundation models that can be fine-tuned or prompted for a wide range of downstream tasks. This is the track that governs GPT-4, Claude, Gemini, Llama, Mistral, and their successors.
 
@@ -131,7 +131,7 @@ The most underused provision of the AI Act for enterprise CTOs is **Article 6.3*
 - The system does not make autonomous decisions with significant adverse effect on a natural person's health, safety, fundamental rights, or legal status
 - The provider documents through self-assessment that the system does not pose a significant risk of harm
 
-This reclassification is not automatic — it requires a documented self-assessment and notification to the national market surveillance authority. But it opens a legitimate architecture path: **introducing a human decision gate** that makes the AI system advisory rather than decisional removes it from high-risk status.
+This reclassification is not automatic — it requires a documented self-assessment that must be retained and made available to national competent authorities upon request — there is no proactive notification obligation. But it opens a legitimate architecture path: **introducing a human decision gate** that makes the AI system advisory rather than decisional removes it from high-risk status.
 
 **Example:** an AVM system that produces a valuation range and presents it to a human expert who validates before any lending decision is communicated to the borrower can legitimately argue for reclassification, provided the human decision gate is genuine (not a rubber-stamp). At KHOME, this architectural choice was made explicitly for RICS compliance — it has the secondary benefit of avoiding high-risk status.
 
@@ -169,9 +169,9 @@ The CTO's role is to **own the classification decision** and defend it technical
 1. EU. (2024). *Regulation (EU) 2024/1689 of the European Parliament and of the Council — Artificial Intelligence Act*. OJ L, 2024/1689.
 2. ISO/IEC 42001:2023. *Information technology — Artificial intelligence — Management system*.
 3. NIST. (2023). *AI Risk Management Framework (AI RMF 1.0)*. NIST AI 100-1.
-4. ANSSI. (2024). *Recommandations de sécurité pour les systèmes fondés sur l'IA générative*. ANSSI/PA-093.
+4. ANSSI. (2024). *Recommandations de sécurité pour les systèmes fondés sur l'IA générative*. Agence nationale de la sécurité des systèmes d'information.
 5. ENISA. (2023). *Multilayer Framework for Good Cybersecurity Practices for AI*. ENISA Report.
-6. European Data Protection Board. (2023). *Guidelines 2/2023 on Technical Scope of Art. 5.1.e) AI Act*.
+6. EDPB. (2023). *Opinion 28/2023 on certain data protection aspects related to the processing of personal data in the context of AI models*. European Data Protection Board.
 7. AI HLEG. (2019). *Ethics Guidelines for Trustworthy AI*. European Commission.
 8. Floridi, L. et al. (2018). *AI4People — An Ethical Framework for a Good AI Society*. Minds and Machines, 28(4).
 9. Goodman, B., Flaxman, S. (2017). *EU regulations on algorithmic decision-making and a "right to explanation"*. AI Magazine, 38(3).
@@ -182,7 +182,7 @@ The CTO's role is to **own the classification decision** and defend it technical
 14. Veale, M., Borgesius, F. Z. (2021). *Demystifying the Draft EU Artificial Intelligence Act*. Computer Law Review International, 22(4).
 15. Laux, J., Wachter, S., Mittelstadt, B. (2024). *Three Pathways to Lay Governance of Artificial Intelligence in the EU*. European Journal of Law and Technology.
 16. RICS. (2023). *Automated Valuation Models (AVMs) — Professional Statement*. Royal Institution of Chartered Surveyors.
-17. Hadfield-Menell, D., Hadfield, G. K. (2019). *Incomplete Contracting and AI Alignment*. ICML Workshop.
+17. Hadfield-Menell, D. et al. (2017). *The Off-Switch Game*. IJCAI 2017.
 18. Kop, M. (2021). *EU Artificial Intelligence Act: The European Approach to AI*. Transatlantic Antitrust and IPR Developments, Stanford-Vienna.
 19. Mökander, J., Floridi, L. (2021). *Ethics-Based Auditing to Develop Trustworthy AI*. Minds and Machines, 31.
 20. Palomares, I. et al. (2021). *Advances in Consensus Reaching in AI Ethics*. Information Fusion, 66.
