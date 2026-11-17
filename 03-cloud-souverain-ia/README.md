@@ -18,9 +18,11 @@ This section answers without ideological shortcuts. The honest answer is: **it d
 |---|---|---|
 | [`docs/01-sovereign-cloud-2026-thesis.md`](./docs/01-sovereign-cloud-2026-thesis.md) | Thesis · 4 800 words · 18 references | The 2026 case (and limits) of sovereign cloud — Schrems II, FISA 702, CLOUD Act, EU Data Act, AI Act extraterritoriality. Three workload archetypes (sovereign-mandatory, sovereign-preferable, hyperscaler-rational). |
 | [`docs/02-cloud-ia-co-evolution.md`](./docs/02-cloud-ia-co-evolution.md) | Paper · 3 600 words · 14 references | How AI workloads reshape cloud architecture: GPU economics, inference networks, data gravity, FinOps for LLMs. Implications for the make-or-buy decision in 2026. |
+| [`docs/03-vendor-concentration-risk-framework.md`](./docs/03-vendor-concentration-risk-framework.md) | Paper · 4 400 words · 15 references | **NEW (Nov 2026)** — Vendor Concentration Risk Index (VCRI) framework triggered by the NVIDIA CEO transition of 12 Nov 2026. Six-axis scoring, four stylised case studies, DORA / NIS2 / AI Act / Data Act mapping, three doctrines for 2027. |
 | [`code/sovereign_cloud_decision.py`](./code/sovereign_cloud_decision.py) | Python · CLI | Quantitative decision framework: scores a workload across 8 axes (data class, regulatory exposure, latency, cost, GPU need, reversibility, supply-chain risk, business continuity) → recommendation. |
 | [`code/llm_finops_optimizer.py`](./code/llm_finops_optimizer.py) | Python · CLI | LLM cost optimiser: routes traffic to the cheapest provider that satisfies quality + residency constraints. Inspired by Vocalcom's 210 K€/yr savings playbook. |
 | [`code/data_residency_analyzer.py`](./code/data_residency_analyzer.py) | Python · CLI | Verifies that a multi-cloud architecture respects GDPR Art. 44 + EU AI Act + sectorial residency constraints (HDS, SecNumCloud, RICS). |
+| [`code/vendor_concentration_risk.py`](./code/vendor_concentration_risk.py) | Python · CLI | **NEW** — VCRI scorer for AI infrastructure dependencies. 5 preset profiles (NVIDIA/CUDA, hyperscaler, OpenAI-exclusive, EU-sovereign, on-prem OSS), per-axis scoring, comparison view, JSON export for DORA registers. |
 | [`code/requirements.txt`](./code/requirements.txt) | Pinned deps | Standard-library only. |
 
 ## Key references
@@ -36,6 +38,9 @@ This section answers without ideological shortcuts. The honest answer is: **it d
 - DINUM / Premier Ministre. (2021, mis à jour 2024). *Doctrine «Cloud au centre»*. Direction interministérielle du numérique.
 - Gartner. (2024). *Magic Quadrant for Strategic Cloud Platform Services*.
 - Microsoft / Bleu, Orange / S3NS — operational reports on EU sovereign-cloud joint ventures.
+- Shapiro, C., Varian, H. R. (1999). *Information Rules*. HBS Press. *(added with paper 03)*
+- Williamson, O. E. (1985). *The Economic Institutions of Capitalism*. Free Press. *(added with paper 03)*
+- NVIDIA / SEC. (12 Nov 2026). *CEO Transition announcement + Form 8-K*. *(trigger of paper 03)*
 
 ## How to run
 
@@ -44,6 +49,7 @@ cd code
 python sovereign_cloud_decision.py --workload-preset healthcare-ehr
 python llm_finops_optimizer.py --demo
 python data_residency_analyzer.py --architecture multi-region-failover
+python vendor_concentration_risk.py --preset-all   # NEW
 ```
 
 ---

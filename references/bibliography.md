@@ -53,16 +53,26 @@
 
 ## C. Strategy, transformation, sectorial
 
+- Carr, N. (2003). *IT Doesn't Matter*. **Harvard Business Review** 81(5).
 - CNCF. (2018). *Cloud Native Definition v1.0*.
 - Davenport, T. H., Mittal, N. (2023). *All-in on AI: How Smart Companies Win Big with Artificial Intelligence*. **HBR Press**.
 - FinOps Foundation. (2024). *FinOps Framework v2024*.
 - Gartner. (2024). *Magic Quadrant for Strategic Cloud Platform Services*.
+- Hirschman, A. O. (1945). *National Power and the Structure of Foreign Trade*. University of California Press. *(original HHI concentration index)*
 - Iansiti, M., Lakhani, K. R. (2020). *Competing in the Age of AI*. **HBR Press**.
+- Iansiti, M., Levien, R. (2004). *The Keystone Advantage*. **HBR Press**.
 - McCrory, D. (2010). *Data Gravity in the Clouds*. Technical note.
 - McKinsey. (2024). *State of AI in early 2024*.
 - OECD. (2023). *Cross-border data flows and digital sovereignty*.
 - Schwartz, R. et al. (2020). *Green AI*. **Communications of the ACM**.
+- Shapiro, C., Varian, H. R. (1999). *Information Rules: A Strategic Guide to the Network Economy*. **HBS Press**.
 - Wachter, S. et al. (2019). *A right to reasonable inferences*. **Columbia Business Law Review**.
 - Westerman, G., Bonnet, D., McAfee, A. (2014). *Leading Digital*. **HBR Press**.
+- Williamson, O. E. (1985). *The Economic Institutions of Capitalism*. **Free Press**.
+
+## D. News / case studies
+
+- NVIDIA Corporation. (12 Nov 2026). *NVIDIA Announces CEO Transition*. Press release — https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition
+- SEC. (12 Nov 2026). *NVIDIA Corporation — Form 8-K*. EDGAR filing.
 - World Economic Forum. (2024). *Future of Jobs Report*.
 - World Economic Forum. (2024). *Data Free Flow with Trust*.

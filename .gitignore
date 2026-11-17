@@ -49,3 +49,16 @@ eval_report.json
 .env.*
 *.pem
 *.key
+
+# Local-only working documents — NEVER commit to the public repo
+# (Comex decks, drafts, screenshots, inspection artifacts, etc.)
+*.pptx
+*.docx
+*.xlsx
+_inspect/
+_inspect_*/
+_inspect_*.jpg
+_inspect_*.png
+
+# Transient CLI outputs from the Python tools in this portfolio
+vcri_report.json
